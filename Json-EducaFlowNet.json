@@ -1,0 +1,51 @@
+---Insertar---
+http://localhost:8080/usuario/registro
+{
+  "nombreUsuario": "Jonathan._.MP_2",
+  "correo": "l20280712@toluca.tecnm.mx",
+  "contrasenia": "123",
+  "nombre": "Jonathan",
+  "apellidoPaterno": "Montalvo",
+  "apellidoMaterno": "Pérez",
+  "fechaNacimiento": "2002-08-09",
+  "genero": "H",
+  "telefono": "+52-729-765-4321",
+  "direccion": "Av Tecnológico 100-s/n, AGRÍCOLA",
+  "ciudad": "Metepec",
+  "estado": "Estado de México",
+  "pais": "México",
+  "codigoPostal": "52149",
+  "imagenPerfil": "https://drive.google.com/file/d/1ANXZ8gXBpGxKbxpzQiMqyfXzWlMZEdNl/view?usp=share_link",
+  "fechaRegistro": "2023-12-07"
+}
+
+---Consutar todos los usuarios---
+http://localhost:8080/usuario/todos
+
+---Editar un usuario---
+http://localhost:8080/usuario/actualizar
+{
+  "idUsuario": 2,
+  "nombreUsuario": "Jonathan._.MP_245",
+  "correo": "l20280712@toluca.tecnm.mx",
+  "contrasenia": "123",
+  "nombre": "Jonathan",
+  "apellidoPaterno": "Montalvo",
+  "apellidoMaterno": "Pérez",
+  "fechaNacimiento": "2002/08/09",
+  "genero": "H",
+  "telefono": "+52-729-765-4321",
+  "direccion": "Av Tecnológico 100-s/n, AGRÍCOLA",
+  "ciudad": "Metepec",
+  "estado": "Estado de México",
+  "pais": "México",
+  "codigoPostal": "52149",
+  "imagenPerfil": "https://drive.google.com/file/d/1ANXZ8gXBpGxKbxpzQiMqyfXzWlMZEdNl/view?usp=share_link",
+  "fechaRegistro": "2023/12/07"
+}
+
+---Buscar por id a un usuario---
+http://localhost:8080/usuario/2
+
+---Borrar un usuario---
+http://localhost:8080/usuario/borrar/3

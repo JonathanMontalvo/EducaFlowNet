@@ -1,0 +1,24 @@
+/*** Visitamos la siguiente página ***/
++ https://vitejs.dev/guide/
+
+/*** Buscamos y copiamos el comando para crear el proyecto en el directorio de elección ***/
++ npm create vite@latest
+
+/*** Le damos el nombre al proyecto ***/
++ EducaFlowNet
+
+/*** Elegimos el framwork ***/
++ React
+
+/*** Elegimos la variante ***/
++ JavaScript
+
+/*** Avanzamos a la carpeta del proyecto ***/
++ cd EducaFlowNet/
+
+/*** Instalamos la dependencias y paquetes de Node.js con npm ***/
+------------------------------ Nota ------------------------------
+Si descargamos el proyecto de github igual deben de volver a 
+instalar los paquetes y dependencias de Node.js 
++ npm intall
+

@@ -1,0 +1,10 @@
+Lista de dependencias a instalar en el API
+
+1.- MariaDB Driver
+2.- Spring Web
+3.- Spring Data JPA
+5.- Spring Boot DevTools
+5.- WebSocket
+6.- Spring Security
+7.- Lombok
+8.- Spring Session
